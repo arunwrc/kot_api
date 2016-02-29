@@ -16,7 +16,7 @@ class User_api extends REST_Controller {
         }
     }
     
-    function Addusername_post(){
+    function Adduser_post(){
            
        $data = json_decode(file_get_contents('php://input'),true);  
         if(isset($data['username'])) {
